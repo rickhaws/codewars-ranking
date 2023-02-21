@@ -58,8 +58,8 @@ user.progress // => 10
 
 user.incProgress(-5) // will add 90 progress
 
-user.progress # => 0 // progress is now zero
+user.progress # => 0 // progress is now zero  *NOTE: My solution keeps a running progress instead of resetting it to zero for a new rank
 
 user.rank # => -7 // rank was upgraded to -7
 
-First* Note: Codewars no longer uses this algorithm for its own ranking system. It uses a pure Math based solution that gives consistent results no matter what order a set of ranked activities are completed at.
+* Note: Codewars no longer uses this algorithm for its own ranking system. It uses a pure Math based solution that gives consistent results no matter what order a set of ranked activities are completed at.
